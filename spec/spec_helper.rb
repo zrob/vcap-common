@@ -4,7 +4,6 @@ require "bundler"
 Bundler.require(:default, :spec)
 
 require "vcap/common"
-require "vcap/component"
 require "vcap/rolling_metric"
 require "vcap/subprocess"
 require "vcap/process_utils"
